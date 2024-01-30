@@ -1,8 +1,12 @@
+$color_fondo: #292C3E;
+$color_letras: #fff;
+
 main {
-    background-color: #292C3E;
+    background-color: $color_fondo;
     width: 100%;
     height: 100%;
-    color: #fff;
+    color: $color_letras;
+    padding: 15px;
 
     .titulo-pagina {
         padding: 20px;
@@ -29,5 +33,14 @@ main {
     img {
         max-width: 100%;
         height: auto;
+    }
+
+    // estilos de"Nosotros"
+
+    .contenedor-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
+        gap: 30px;
     }
 }

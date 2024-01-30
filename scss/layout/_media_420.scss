@@ -1,0 +1,14 @@
+// cambios de estilo para ver en smart phone
+// estoy cambiando solamente los del index y nosotros
+
+
+@media screen and (min-width:768px) {
+    main {
+        .contenedor-nosotros {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            padding: 15px;
+            gap: 30px;
+        }
+    }
+}
