@@ -1,3 +1,27 @@
+body {
+  background-color: #292C3E;
+  color: #fff;
+  display: flex;
+  width: 100%;
+}
 
+header {
+  width: 100%;
+  display: flex;
+  background-color: #1C1F30;
+  border-bottom: 1px solid #F4FF80;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.anuncio {
+  background-color: #F4FF80;
+  color: black;
+  width: 100%;
+}
+.anuncio p {
+  text-align: center;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=style.css.map */
