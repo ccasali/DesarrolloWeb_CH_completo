@@ -1,8 +1,12 @@
 .anuncio{
     background-color: #F4FF80;
+    display: flex;
     color: black;
     width: 100%;
-
+    height: 35px;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
     p {
         text-align: center;
         font-weight: bold;
