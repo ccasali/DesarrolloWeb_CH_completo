@@ -1,9 +1,14 @@
+$color_fondo: #1C1F30;
+$color_secundario: #F4FF80;
+$color_titulo: #E093FE;
+$color_letras: #fff;
+
 header {
 
     width: 100%;
     display: flex;
-    background-color: #1C1F30;
-    border-bottom: 1px solid #F4FF80;
+    background-color: $color_fondo;
+    border-bottom: 1px solid $color_secundario;
     padding: 15px;
     justify-content: space-between;
 
@@ -20,14 +25,13 @@ header {
             align-items: center;
 
             li {
-                color:#F4FF80;
                 text-decoration: none;
             }
         }
     }
 
     a {
-        color: #fff;
+        color: $color_letras;
         text-decoration: none;
 
         &:hover{
@@ -36,7 +40,7 @@ header {
         }
 
         h1 {
-            color: #E093FE;
+            color: $color_titulo;
             text-decoration: none;
         }
     }    

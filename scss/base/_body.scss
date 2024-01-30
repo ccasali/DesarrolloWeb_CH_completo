@@ -1,11 +1,4 @@
 body{
-    background-color: #292C3E;
-    color: #fff;
-    display: flex;
-    width: 100%;
-
-    main{
-        width: 100%;
-        height: 100%;
-    }
+    background-color: #292C3E; // podría definirse como variable, pero como no defino nada más
+                                 // del body, es fácil de identificar
 }

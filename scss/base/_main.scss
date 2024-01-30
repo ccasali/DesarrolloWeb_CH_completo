@@ -11,13 +11,19 @@ main {
     .container-servicios {
         padding: 20px 20px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         width: 100%;
-        gap: 10px;
+        gap: 25px;
     }
 
     .descripcion-prod-h3 {
         text-align: center;
+        padding: 10px;
+    }
+
+    p {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     img {

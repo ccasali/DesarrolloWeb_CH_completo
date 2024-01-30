@@ -1,8 +1,11 @@
+$color_letras: black;
+$color_fondo: #F4FF80;
+
 .anuncio{
 
-    background-color: #F4FF80;
+    background-color: $color_fondo;
     display: flex;
-    color: black;
+    color: $color_letras;
     width: 100%;
     height: 35px;
     border-radius: 2px;
