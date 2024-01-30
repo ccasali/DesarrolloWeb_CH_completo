@@ -17,6 +17,7 @@ body {
 
 header {
   width: 100%;
+  height: 120px;
   display: flex;
   background-color: #1C1F30;
   border-bottom: 1px solid #F4FF80;
@@ -41,6 +42,7 @@ header nav ul li {
 header a {
   color: #fff;
   text-decoration: none;
+  align-items: center;
 }
 header a:hover {
   text-decoration: underline;
@@ -56,7 +58,7 @@ header a h1 {
   display: flex;
   color: black;
   width: 100%;
-  height: 35px;
+  height: 50px;
   border-radius: 2px;
   align-items: center;
   justify-content: center;
@@ -79,7 +81,7 @@ main .titulo-pagina {
 main .container-servicios {
   padding: 20px 20px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   width: 100%;
   gap: 25px;
 }
@@ -97,9 +99,19 @@ main img {
 }
 main .contenedor-nosotros {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   padding: 15px;
-  gap: 30px;
+}
+main .contenedor-nosotros .mapa {
+  width: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+main .contenedor-nosotros .mapa iframe {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50%;
+  width: 50%;
 }
 
 footer {
@@ -113,11 +125,29 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
+  .anuncio {
+    height: 35px;
+  }
+  main .container-servicios {
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 25px;
+  }
   main .contenedor-nosotros {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 15px;
-    gap: 30px;
+  }
+  main .contenedor-nosotros .mapa {
+    width: auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  main .contenedor-nosotros .mapa iframe {
+    height: 100%;
+    width: auto;
   }
 }
 

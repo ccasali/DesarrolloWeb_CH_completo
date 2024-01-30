@@ -3,12 +3,36 @@
 
 
 @media screen and (min-width:768px) {
+
+    .anuncio {
+        height: 35px;
+    }
+
     main {
+        .container-servicios {
+            padding: 20px 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+            gap: 25px;
+        }
+
         .contenedor-nosotros {
             display: grid;
-            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             padding: 15px;
-            gap: 30px;
+            
+        .mapa {
+            width: auto;
+            align-items: center;
+            justify-content: space-around;
+
+            iframe{
+                height: 100%;
+                width: auto;
+            }
         }
     }
+}
+
 }
