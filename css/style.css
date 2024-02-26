@@ -150,6 +150,19 @@ footer p {
     width: auto;
   }
 }
+/* Estilos de los inputs y de los botones de acceso por redes sociales */
+.formulario-contacto input {
+  border-radius: 5px;
+  height: 25px;
+  background-color: #F4ECEB;
+}
+
+.div-formulario-registro input {
+  border-radius: 5px;
+  height: 25px;
+  background-color: #F4ECEB;
+}
+
 .redes-sociales .iconos {
   margin: 20px;
   border-radius: 10px;
@@ -169,6 +182,14 @@ footer p {
   background-color: #db4a39;
   color: white;
   font-size: 18px;
+}
+
+input[type=submit] {
+  text-decoration: none;
+}
+
+.boton-acceso {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
