@@ -150,5 +150,25 @@ footer p {
     width: auto;
   }
 }
+.redes-sociales .iconos {
+  margin: 20px;
+  border-radius: 10px;
+  border-style: none;
+}
+.redes-sociales .iconos .facebook {
+  background-color: #3b5999;
+  color: white;
+  font-size: 18px;
+}
+.redes-sociales .iconos .instagram {
+  background-image: linear-gradient(to bottom right, #515BD4, #DD2A7B, #FEDA77, #F58529);
+  color: white;
+  font-size: 18px;
+}
+.redes-sociales .iconos .google {
+  background-color: #db4a39;
+  color: white;
+  font-size: 18px;
+}
 
 /*# sourceMappingURL=style.css.map */

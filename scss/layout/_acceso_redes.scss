@@ -4,5 +4,23 @@
         margin: 20px;
         border-radius: 10px;
         border-style: none;
+
+        .facebook {
+            background-color: #3b5999;
+            color: white;
+            font-size: 18px;
+        }
+
+        .instagram {
+            background-image: linear-gradient(to bottom right, #515BD4, #DD2A7B, #FEDA77, #F58529);
+            color: white;
+            font-size: 18px;            
+        }
+
+        .google {
+            background-color: #db4a39;
+            color: white;
+            font-size: 18px;
+        }
     }
 }
